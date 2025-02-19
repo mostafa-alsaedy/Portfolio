@@ -3,10 +3,10 @@ import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import docketImg from "@/public/docket.png";
-import freshCartImg from "@/public/freshcart.png";
-import gameReviewsImg from "@/public/gamereviews.png";
-import yummyRecipesImg from "@/public/yummyrecipes.png";
-import weatherAppImg from "@/public/weatherapp.png";
+import freshCartImg from "@/public/freshCart.png";
+import gameReviewsImg from "@/public/gameReviews.png";
+import yummyRecipesImg from "@/public/yummyRecipes.png";
+import weatherAppImg from "@/public/weatherApp.png";
 
 
 export const links = [

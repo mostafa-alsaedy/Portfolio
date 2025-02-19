@@ -1,12 +1,11 @@
 "use client"
 import Image from 'next/image'
-import React, { useEffect } from 'react'
+import React from 'react'
 import { motion } from 'framer-motion'
 import Link from 'next/link'
 import { BsArrowRight, BsLinkedin } from 'react-icons/bs'
 import { HiDownload } from 'react-icons/hi'
-import { FaGithubSquare, FaGitSquare } from 'react-icons/fa'
-import { useInView } from 'react-intersection-observer';
+import { FaGithubSquare } from 'react-icons/fa'
 import { useActiveSectionContext } from '@/context/ActiveSection'
 import { useSectionInView } from '@/lib/hooks'
 
