@@ -4,7 +4,6 @@ import React from 'react'
 import SectionHeading from './SectionHeading'
 import { useSectionInView } from '@/lib/hooks'
 import { motion } from 'framer-motion'
-import { transcode } from 'buffer'
 
 export default function Skills() {
 
