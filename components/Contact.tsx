@@ -44,14 +44,11 @@ export default function Contact() {
           const response = await sendEmail(formData);
           console.log(response);
           
-
-          // Check if the response contains an error
           if (response.data?.error) {
             toast.error("Something went wrong, Try Again!");
             return;
           }
 
-          // If no error, show success
           toast.success("Email sent successfully!");
         }}
       >
