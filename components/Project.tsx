@@ -1,4 +1,3 @@
-"use client";
 import { projectsData } from "@/lib/data"
 import { useScroll, useTransform } from "framer-motion"
 import Image from "next/image"
@@ -9,7 +8,6 @@ import Link from "next/link"
 type ProjectProps = (typeof projectsData)[number]
 export default function Project({ title, description, tags, imageUrl, website }:
     ProjectProps) {
-        
     const ref = useRef<HTMLDivElement>(null)
     const { scrollYProgress } = useScroll({
         target: ref,
@@ -46,7 +44,6 @@ export default function Project({ title, description, tags, imageUrl, website }:
                             ))}
                         </ul>
                     </div>
-
                     <Image
                         src={imageUrl}
                         alt="Project I worked on"

@@ -19,16 +19,25 @@ export default function About() {
                 transition={{ delay: 0.1 }}
                 id='about'>
                 <SectionHeading>About Me</SectionHeading>
-                <p className="mb-3">
-                    After earning a degree in <span className="font-medium">Accounting</span>, I followed my passion for programming and completed a coding bootcamp in{" "}
-                    <span className="font-medium">frontend web development</span>. What I love most about coding is bringing ideas to life and turning requirements into practical, user-friendly applications while ensuring a seamless and enjoyable user experience. I take pride in implementing every feature with precision, making sure it works exactly as intended.
-                    <br /><br />
-                    My core stack includes <span className="font-medium">React and Next.js</span>, and I’m also familiar with TypeScript. I’m always eager to learn new technologies and improve my skills. Currently, I’m looking for a{" "}
-                    <span className="font-medium">full-time position</span> as a Frontend Web Developer.
-                </p>
-                <p>
-                    <span className="italic">Beyond coding</span>, I enjoy staying active at the gym, watching football matches, and playing mobile games.
-                </p>
+                <div>
+                    <div>
+                    <div>
+    <p className="mb-3">
+        After earning a degree in <span className="font-medium">Accounting</span>, I shifted to the world of programming, driven by my passion for technology. I completed a coding bootcamp specializing in{" "}
+        <span className="font-medium">front-end web development</span>, where I strengthened my skills in building dynamic and user-friendly applications.
+    </p>
+    <p className="mb-3">
+        I thrive on transforming complex ideas into seamless, intuitive user experiences, whether it’s streamlining a tricky UI challenge or delivering pixel-perfect, efficient code that powers flawless functionality.
+    </p>
+    <p className="mb-3">
+        My core stack includes <span className="font-medium">React and Next.js</span>, and I have experience working with <span className="font-medium">TypeScript</span>. I’m always eager to learn new technologies and improve my skills. Right now, I’m looking for a full-time job as a Frontend Web Developer.
+    </p>
+    <p>
+        <span className="italic">When I’m not coding</span>, you’ll find me deadlifting at the gym, cheering for [favorite football team], or strategizing in my latest mobile game obsession.
+    </p>
+</div>
+                    </div>
+                </div>
             </motion.section>
         </>
     )

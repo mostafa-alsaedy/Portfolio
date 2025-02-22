@@ -13,7 +13,7 @@ export default function Experience() {
 
     return (
         <>
-        <section id="experience" ref={ref} className='mb-28'>
+        <section id="experience" ref={ref} className='mb-28 scroll-mt-28'>
             <SectionHeading>Experience</SectionHeading>
             <VerticalTimeline lineColor= {theme === "dark" ? "#1f2937" : "#e5e7eb"}>
                 {experiencesData.map((item, index) => (
