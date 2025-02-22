@@ -21,21 +21,21 @@ export default function About() {
                 <SectionHeading>About Me</SectionHeading>
                 <div>
                     <div>
-                    <div>
-    <p className="mb-3">
-        After earning a degree in <span className="font-medium">Accounting</span>, I shifted to the world of programming, driven by my passion for technology. I completed a coding bootcamp specializing in{" "}
-        <span className="font-medium">front-end web development</span>, where I strengthened my skills in building dynamic and user-friendly applications.
-    </p>
-    <p className="mb-3">
-        I thrive on transforming complex ideas into seamless, intuitive user experiences, whether it’s streamlining a tricky UI challenge or delivering pixel-perfect, efficient code that powers flawless functionality.
-    </p>
-    <p className="mb-3">
-        My core stack includes <span className="font-medium">React and Next.js</span>, and I have experience working with <span className="font-medium">TypeScript</span>. I’m always eager to learn new technologies and improve my skills. Right now, I’m looking for a full-time job as a Frontend Web Developer.
-    </p>
-    <p>
-        <span className="italic">When I’m not coding</span>, you’ll find me deadlifting at the gym, cheering for [favorite football team], or strategizing in my latest mobile game obsession.
-    </p>
-</div>
+                        <div>
+                            <p className="mb-3">
+                                After earning a degree in <span className="font-medium">Accounting</span>, I shifted to the world of programming, driven by my passion for technology. I completed a coding bootcamp specializing in{" "}
+                                <span className="font-medium">front-end web development</span>, where I strengthened my skills in building dynamic and user-friendly applications.
+                            </p>
+                            <p className="mb-3">
+                                I thrive on transforming complex ideas into seamless, intuitive user experiences, whether it’s streamlining a tricky UI challenge or delivering pixel-perfect, efficient code that powers flawless functionality.
+                            </p>
+                            <p className="mb-3">
+                                My core stack includes <span className="font-medium">React and Next.js</span>, and I have experience working with <span className="font-medium">TypeScript</span>. I’m always eager to learn new technologies and improve my skills. Right now, I’m looking for a full-time job as a Frontend Web Developer.
+                            </p>
+                            <p>
+                                <span className="italic">When I’m not coding</span>, you’ll find me deadlifting at the gym, cheering for Manchester United, or strategizing in my latest mobile game obsession.
+                            </p>
+                        </div>
                     </div>
                 </div>
             </motion.section>
